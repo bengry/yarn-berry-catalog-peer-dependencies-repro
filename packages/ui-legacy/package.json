@@ -1,0 +1,10 @@
+{
+  "name": "@acme/ui-legacy",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.js",
+  "dependencies": {
+    "react": "catalog:react18",
+    "a-legacy-react-library": "^1.0.0"
+  }
+}

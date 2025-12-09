@@ -1,0 +1,9 @@
+{
+  "name": "@acme/ui-next",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.js",
+  "peerDependencies": {
+    "react": "catalog:react19"
+  }
+}

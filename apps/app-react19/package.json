@@ -1,0 +1,16 @@
+{
+  "name": "@acme/app-react19",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'dev server would run here'"
+  },
+  "dependencies": {
+    "react": "catalog:react19",
+    "react-dom": "catalog:react19",
+    "zod": "catalog:",
+    "@acme/ui-next": "workspace:*",
+    "@acme/form": "workspace:*"
+  }
+}

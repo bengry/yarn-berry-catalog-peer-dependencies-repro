@@ -1,0 +1,16 @@
+{
+  "name": "@acme/app-react18",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'dev server would run here'"
+  },
+  "dependencies": {
+    "react": "catalog:react18",
+    "react-dom": "catalog:react18",
+    "zod": "catalog:",
+    "@acme/ui-legacy": "workspace:*",
+    "@acme/form": "workspace:*"
+  }
+}
