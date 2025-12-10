@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "main": "./src/index.js",
-  "dependencies": {
+  "peerDependencies": {
     "react": "catalog:react18",
-    "a-legacy-react-library": "^1.0.0"
+    "react-dom": "catalog:react18"
   }
 }

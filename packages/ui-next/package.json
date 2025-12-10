@@ -4,6 +4,7 @@
   "type": "module",
   "main": "./src/index.js",
   "peerDependencies": {
-    "react": "catalog:react19"
+    "react": "catalog:react19",
+    "react-dom": "catalog:react19"
   }
 }

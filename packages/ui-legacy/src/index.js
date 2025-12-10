@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState } from "react";
+import { Button as ButtonPrimitive } from "a-legacy-lib";
 
 export function Button({ children, onClick }) {
   const [clicked, setClicked] = useState(false);
@@ -8,7 +9,7 @@ export function Button({ children, onClick }) {
     onClick?.();
   };
 
-  return <button onClick={handleClick}>{children}</button>;
+  return <ButtonPrimitive onClick={handleClick}>{children}</ButtonPrimitive>;
 }
 
 export function Input({ value, onChange, placeholder }) {

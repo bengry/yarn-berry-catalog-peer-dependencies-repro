@@ -7,10 +7,10 @@
     "dev": "echo 'dev server would run here'"
   },
   "dependencies": {
+    "@acme/form": "workspace:*",
+    "@acme/ui-legacy": "workspace:*",
     "react": "catalog:react18",
     "react-dom": "catalog:react18",
-    "zod": "catalog:",
-    "@acme/ui-legacy": "workspace:*",
-    "@acme/form": "workspace:*"
+    "zod": "catalog:"
   }
 }
